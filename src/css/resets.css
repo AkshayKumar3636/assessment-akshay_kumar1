@@ -17,6 +17,7 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial;
 }
 
 img {
@@ -41,6 +42,59 @@ table {
 sup {
   vertical-align: 5px;
   line-height: 0;
+}
+
+/* section-2 starts*/
+.header {
+  color: #005555;
+}
+
+button {
+  background-color: #008080;
+  border: none;
+}
+/* section-2 ends*/
+
+
+/* section-3 starts*/
+.section-3 {
+  background-color: #F0F5F5;
+  padding-bottom: 44px;
+}
+
+.card-header {
+  color: #005555;
+}
+/* section-3 ends*/
+
+/* section-4 starts*/
+hr {
+  border: 1px solid #002B2B;
+}
+/* section-4 ends*/
+
+@media only screen and (max-width: 767px) {
+  /* section-1 starts*/
+  .mob-width {
+    width: 16px;
+  }
+
+  .mob-hide {
+    display: none;
+  }
+  /* section-1 ends*/
+
+  /* section-2 starts*/
+  .section-2 {
+    padding: 0;
+  }
+  /* section-2 ends*/
+
+  /* section-3 starts*/
+  .card {
+    width: 100%;
+  }
+  /* section-3 ends*/
 }
 
 
